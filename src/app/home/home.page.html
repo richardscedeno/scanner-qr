@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-title mode="ios">
+      BARCODE SCANNER
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div>
+
+    <ion-button shape="round" color="warning" (click)="scannerCode()">
+      Scanner Code
+    </ion-button>
+
+    <div *ngIf=datosScaneados>
+      <p>
+        Contenido -> : <b>{{ datosScaneados["text"] }}</b>
+      </p>
+    </div>
+
+  </div>
+  
+</ion-content>
+
+<ion-footer mode="ios">
+  <!-- PIE DE PAGINA -->
+  <ion-toolbar color="warning">
+    <div>
+      <ion-title>UPSE-2021</ion-title><br>
+      <ion-label>Realizado por Cedeño Richards</ion-label>
+    </div>
+  </ion-toolbar>
+</ion-footer>

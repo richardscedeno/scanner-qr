@@ -1,0 +1,6 @@
+{
+	"appId": "com.jcedeno.saccerqr",
+	"appName": "scannerQR",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

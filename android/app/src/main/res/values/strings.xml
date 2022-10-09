@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">scannerQR</string>
+    <string name="title_activity_main">scannerQR</string>
+    <string name="package_name">com.jcedeno.saccerqr</string>
+    <string name="custom_url_scheme">com.jcedeno.saccerqr</string>
+</resources>
